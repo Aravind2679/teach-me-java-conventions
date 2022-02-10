@@ -37,9 +37,5 @@ public class powerfinderTest {
         Assertions.assertEquals(powerfinder.power(3,2),9);
     }
 
-    @Test
-    public void one_raised_to_one_is_onew() {
-        assert powerfinder.power(1,1) == 1;
-    }
 
 }
